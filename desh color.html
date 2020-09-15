@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="desh color - Copy (2).css" />
+</head>
+<body>
+<IMG src="EU-6Z5iU8AA24KW.jpg">
+	<div id="bg"></div>
+	<script type="text/javascript">
+	const bg =document.getElementById('bg'); 
+function randomColor(){
+	return 	Math.floor(Math.random() * 255);
+}
+bg.addEventListener('click',()=> {
+	bg.style.background =  'rgba('+randomColor()+','+randomColor()+','+randomColor()+')'
+})
+	 </script>
+</body>
+</html>
